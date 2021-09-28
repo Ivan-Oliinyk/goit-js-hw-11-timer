@@ -4,13 +4,22 @@
   "description": "",
   "main": ".htmlnanorc.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-11-timer/ ",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-timer/ ",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-Oliinyk/goit-js-hw-11-timer.git"
+  },
+
   "author": "OliVan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivan-Oliinyk/Ivan-Oliinyk/goit-js-hw-11-timer/issues"
+  },
+  "homepage": "https://github.com/Ivan-Oliinyk/goit-js-hw-11-timer#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   },
