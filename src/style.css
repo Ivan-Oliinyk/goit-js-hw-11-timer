@@ -1,0 +1,32 @@
+.timer {
+  margin: 100px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(217, 209, 209);
+  box-shadow: 0 0 10px grey;
+  border-radius: 5px;
+  width: 700px;
+  font-family: Comic Sans MS;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-width: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 9px grey;
+  text-shadow: 0 0 3px rgb(12, 236, 38);
+}
+
+.field .value {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.field .label {
+  font-size: 20px;
+}
